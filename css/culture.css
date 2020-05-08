@@ -1,0 +1,58 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #000;
+  height: 100%;
+}
+
+.background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+
+.background iframe {
+  opacity: 0;
+}
+
+.done .background iframe{
+  opacity: 0.3;
+  transition: opacity 1s;
+}
+
+.background-inner,
+.background iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+}
+
+#story-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+#story-text {
+  font-size: 28px;
+  width: 900px;
+  color: #f4f4f4;
+  text-shadow: 2px 2px #000000;
+  line-height: 1.7em;
+
+  font-family: 'Roboto', sans-serif;
+
+  opacity: 0;
+}
+
+.done #story-text {
+  opacity: 1;
+  transition: opacity 1s;
+  transition-delay: 0.5s;
+}
