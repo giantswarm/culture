@@ -83,35 +83,53 @@ function renderStory(story) {
   }, 100);
 }
 
+
 function rightArrowPressed() {
   if (currentStory.sentence === currentStory.sentenceCount - 1) {
-    console.error("Can't go past the end of the story");
     shakeCounter();
     return;
   }
 
+  playNextSound();
   currentStory.sentence += 1;
   renderStory(currentStory);
 }
 
 function leftArrowPressed() {
   if (currentStory.sentence === 0) {
-    console.error("Can't go further back");
     shakeCounter();
     return;
   }
 
+  playNextSound();
   currentStory.sentence -= 1;
   renderStory(currentStory);
 }
 
+const nextSound = new Audio('/sfx/next.mp3');
+const errorSound = new Audio('/sfx/error.mp3');
+
+function playNextSound() {
+  nextSound.volume = 0.6;
+  nextSound.pause();
+  nextSound.currentTime = 0;
+  nextSound.play();
+}
+
+function playErrorSound() {
+  errorSound.volume = 0.2;
+  errorSound.pause();
+  errorSound.currentTime = 0;
+  errorSound.play();
+}
+
 let shakeTimeout;
-
 function shakeCounter() {
-    counter.classList.add("shake");
-    clearTimeout(shakeTimeout);
+  playErrorSound();
+  counter.classList.add("shake");
+  clearTimeout(shakeTimeout);
 
-    shakeTimeout = setTimeout(() => {
-      counter.classList.remove("shake");
-    }, 200);
+  shakeTimeout = setTimeout(() => {
+    counter.classList.remove("shake");
+  }, 200);
 }
