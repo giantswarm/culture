@@ -75,6 +75,7 @@ function renderStory(story) {
 function rightArrowPressed() {
   if (currentStory.sentence === currentStory.sentenceCount - 1) {
     console.error("Can't go past the end of the story");
+    shakeCounter();
     return;
   }
 
@@ -85,9 +86,21 @@ function rightArrowPressed() {
 function leftArrowPressed() {
   if (currentStory.sentence === 0) {
     console.error("Can't go further back");
+    shakeCounter();
     return;
   }
 
   currentStory.sentence -= 1;
   renderStory(currentStory);
+}
+
+let shakeTimeout;
+
+function shakeCounter() {
+    counter.classList.add("shake");
+    clearTimeout(shakeTimeout);
+
+    shakeTimeout = setTimeout(() => {
+      counter.classList.remove("shake");
+    }, 200);
 }
