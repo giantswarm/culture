@@ -1,10 +1,13 @@
 html {
   height: 100%;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
 }
 
 body {
   background-color: #000;
   height: 100%;
+  overflow: hidden;
 }
 
 .background {
@@ -42,9 +45,7 @@ body {
 
 #counter {
   color: #f4f4f4;
-  font-family: 'Roboto', sans-serif;
   margin-top: 20px;
-
 }
 
 #story-text {
@@ -54,7 +55,6 @@ body {
   text-shadow: 2px 2px #000000;
   line-height: 1.7em;
   min-height: 250px;
-  font-family: 'Roboto', sans-serif;
   border-radius: 10px;
   padding: 5px 25px;
   opacity: 0;
@@ -74,6 +74,11 @@ body {
 
 #story-text.start {
   opacity: 0;
+}
+
+#story-title {
+  color: #fff;
+  opacity: 0.2;
 }
 
 
@@ -101,4 +106,24 @@ body {
   40%, 60% {
     transform: translate3d(4px, 0, 0);
   }
+}
+
+.button {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 20px;
+  opacity: 0.3;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.button.lightup {
+  opacity: 1;
+  transition: opacity 0.5s;
+  transition-delay: 1s;
 }

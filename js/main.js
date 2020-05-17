@@ -1,11 +1,9 @@
-let currentStory = {
-  text: "",
-  page: "",
-  totalPages: ""
-};
+let currentStory;
 
 const storyText = document.getElementById("story-text");
+const storyTitle = document.getElementById("story-title");
 const counter = document.getElementById("counter");
+const nextRandomButton = document.getElementById("next-random");
 const backgroundIframe = document.getElementById("background");
 const storiesURL = '/stories.json';
 const body = document.body;
@@ -54,7 +52,8 @@ document.addEventListener("keydown", (event) => {
     currentStory = {
       sentences: sentences,
       sentence: 0,
-      sentenceCount: sentences.length
+      sentenceCount: sentences.length,
+      title: story.permalink
     };
 
     renderStory(currentStory);
@@ -77,6 +76,7 @@ document.addEventListener("keydown", (event) => {
 function renderStory(story) {
   storyText.classList.add("start");
   setTimeout(() => {
+    storyTitle.innerHTML = story.title ;
     storyText.innerHTML = story.sentences[story.sentence] + "." ;
     counter.innerHTML = (story.sentence +1) + "/" + story.sentenceCount;
     storyText.classList.remove("start");
@@ -90,6 +90,10 @@ function rightArrowPressed() {
     return;
   }
 
+  if (currentStory.sentence === currentStory.sentenceCount - 2){
+    nextRandomButton.classList.add("lightup");
+  }
+
   currentStory.sentence += 1;
   renderStory(currentStory);
 }
@@ -99,6 +103,10 @@ function leftArrowPressed() {
     console.error("Can't go further back");
     shakeCounter();
     return;
+  }
+
+  if (currentStory.sentence < currentStory.sentenceCount ){
+    nextRandomButton.classList.remove("lightup");
   }
 
   currentStory.sentence -= 1;
