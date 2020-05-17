@@ -34,9 +34,20 @@ document.addEventListener("keydown", (event) => {
     }
     const stories = await response.json();
 
-    const randomStory = stories[Math.floor(Math.random() * stories.length)]
+    let story;
 
-    let sentences = randomStory.text.split(".");
+    if (window.location.hash) {
+      let storyID = window.location.hash.substr(1);
+      story = stories.find((story) => story.permalink == storyID);
+    } else {
+      story = stories[Math.floor(Math.random() * stories.length)]
+    }
+
+
+
+    window.location.hash = story.permalink;
+
+    let sentences = story.text.split(".");
     sentences = sentences.map((x) => x.trim());
     sentences = sentences.filter((x) => x)
 
@@ -48,7 +59,7 @@ document.addEventListener("keydown", (event) => {
 
     renderStory(currentStory);
 
-    backgroundIframe.src = `/backgrounds/${randomStory.background}.html`
+    backgroundIframe.src = `/backgrounds/${story.background}.html`
 
     body.classList.add("done");
 
