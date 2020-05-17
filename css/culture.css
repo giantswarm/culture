@@ -35,8 +35,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100%;
   width: 100%;
+}
+
+#counter {
+  color: #f4f4f4;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  width: 900px;
 }
 
 #story-text {
@@ -45,9 +53,10 @@ body {
   color: #f4f4f4;
   text-shadow: 2px 2px #000000;
   line-height: 1.7em;
-
+  min-height: 150px;
   font-family: 'Roboto', sans-serif;
-
+  border-radius: 10px;
+  padding: 5px;
   opacity: 0;
 }
 
@@ -55,4 +64,13 @@ body {
   opacity: 1;
   transition: opacity 1s;
   transition-delay: 0.5s;
+}
+
+#story-text.loaded {
+  transition: opacity 0.05s;
+  transition-delay: 0s;
+}
+
+#story-text.start {
+  opacity: 0;
 }
