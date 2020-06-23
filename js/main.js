@@ -1,5 +1,6 @@
 let currentStory;
 
+const soundsEnabled = false;
 const storyText = document.getElementById("story-text");
 const storyTitle = document.getElementById("story-title");
 const counter = document.getElementById("counter");
@@ -119,17 +120,21 @@ const nextSound = new Audio('/sfx/next.mp3');
 const errorSound = new Audio('/sfx/error.mp3');
 
 function playNextSound() {
-  nextSound.volume = 0.6;
-  nextSound.pause();
-  nextSound.currentTime = 0;
-  nextSound.play();
+  if (soundsEnabled) {
+    nextSound.volume = 0.6;
+    nextSound.pause();
+    nextSound.currentTime = 0;
+    nextSound.play();
+  }
 }
 
 function playErrorSound() {
-  errorSound.volume = 0.2;
-  errorSound.pause();
-  errorSound.currentTime = 0;
-  errorSound.play();
+  if (soundsEnabled) {
+    errorSound.volume = 0.2;
+    errorSound.pause();
+    errorSound.currentTime = 0;
+    errorSound.play();
+  }
 }
 
 let shakeTimeout;
