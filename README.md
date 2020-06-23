@@ -1,6 +1,12 @@
 Culture Stories
 ---------------
 
+A site that lets us read culture stories. Stories are broken down into sentences
+and you can use the keyboard keys to navigate through the story.
+
+![screenshot of the culture stories site](screenshot.png)
+
+
 ```
 go run main.go
 ```
