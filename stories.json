@@ -21,47 +21,7 @@
   },
   {
     "permalink": "company-lunch",
-    "text": "Sometimes I consider not going to the company lunch on Thursdays, because I am too busy.
-Then I remind myself that is where I get the best laughs all week. In and outside of work.",
-    "background": "company-lunch"
-  },
-  {
-    "permalink": "family-friendliness",
-    "text": "Marta did a photo of Oshrat with her daughter sleeping on her shoulder during the call.",
-    "background": "family-friendliness"
-  },
-  {
-    "permalink": "laughing",
-    "text": "I like the holistic picture we have. People have not a work life, a family life a includeanything life. People have one life. Organizations need to put that into consideration. It is less about partying and onsites (even if they mean a lot to me <3) it is more about having a purpose in your daily work (no bullshit job) and the 'go' to self-organize. It is about no boundaries to think and getting the information you need to make decisions (transparency) and decide as an adult person what is best for you. It is about the flexibility to integrate all elements of life into your day.",
-    "background": "laughing"
-  },
-  {
-    "permalink": "family-friendliness2",
-    "text": "Many companies claim to be family friendly, but at Giant Swarm we actually mean it. My favourite example is Jour Fix (monthly company update) which is pretty late in the day 4:30-6pm CET so most kids are no longer in childcare, but noone wants to miss out on being updated on what has been happening in the company in the last month. Hence, there are many team members with children in their video calls but noone bats an eyelid.",
-    "background": "family-friendliness2"
-  },
-  {
-    "permalink": "day-zero",
-    "text": "You know how it is in other companies. Most people do not even know that you exist. When new people join Giant Swarm and get Slack access before they even worked a single day for the company, there is just an avalanche of greetings, GIFs and rocket emojis and all that cute shit. Sometimes you need to scroll like real bad to see what actually happened in #random when new people join. It is hilarious and so heart warming. Half the company comes running just to welcome you. So and this is then just day zero.",
-    "background": "day-zero"
-  },
-  {
-    "permalink": "agile",
-    "text": "Yes, we are an international team, yes, we are fully remote, yes, we are diverse when it comes to characters. But this was an evolving process. We went remote step by step and made our learnings, we started with Europe, as nobody has solved the time zone yet, and are now ready for the world. We did not hire a certain nationality in a row (like: Now, we open an office in the US); we did not only hire extroverts only. We took a lot of thoughts into ensuring that as different as people are, a few basic beliefs are shared. Now this scales.",
-    "background": "agile"
-  },
-  {
-    "permalink": "unlimitted-holidays",
-    "text": "Why we do not count holidays or work time?
-    This goes back to the original founding of Giant Swarm, where we said that we need very good people and these people all do not work for money. Of course they need to be paid but they are all at a level where, on average, they do not move jobs for money, but rather for an interesting environment, good work topics, great people, and so forth. Self Actualisation if you will.
-They come to a company because they like the vision, the idea, and are intrinsically motivated to work there. As with most people, there are very few things I can do to closely monitor and control those people and it is already known that control is not a good motivator. Hence, my job as a “manager” needs to be to make you WANT to work.
-As a next step, if I manage to do that, and make sure to make it clear that everyone takes the rest they need, then I should just let you do that. Take rest, when and where you want. Especially in our current setting you might take your laptop to holidays and do a few hangouts from there, or read a business book on the weekend, play poker with friends and get one as a customer. The line between personal and work life blurs more and more and I want to support that, because it should and it should in a way that does not create stress.
-Quote: We all learned to answer our email on saturday morning but not to go to the cinema on tuesday at 14:00. - Ricardo Semler.",
-    "background": "unlimitted-holidays"
-  },
-  {
-    "permalink": "afk",
-    "text": "In the AFK Slack channel, people openly state all kinds of random reasons why they are not at their keyboard for a while. This has really helped me to understand how 'flexible work hours' and 'self-responsibility' were lived at GS. Furthermore, it is a sign for trust because false excuses or secret AFKs seem to be way less likely to occur.",
-    "background": "afk"
-  },
+    "text": "Sometimes I consider not going to the company lunch on Thursdays, because I am too busy. Then I remind myself that is where I get the best laughs all week. In and outside of work.",
+    "background": "gradient"
+  }
 ]
