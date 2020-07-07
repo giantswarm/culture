@@ -20,8 +20,13 @@
     "background": "bokehballs"
   },
   {
-    "permalink": "company-lunch",
+    "permalink": "lunch",
     "text": "Sometimes I consider not going to the company lunch on Thursdays, because I am too busy. Then I remind myself that is where I get the best laughs all week. In and outside of work.",
-    "background": "gradient"
+    "background": "gradient0"
+  },
+  {
+    "permalink": "time",
+    "text": "We are pretty much spread around the planet. Hashtag remote first. That one time when we all got together for our onsite, some people had to fly around half the globe only to see each other in person again. Thomas was grinding so hard that he pushed and merged pull requests from 10k altitude flying over the middle of the atlantic ocean. I thought this was some next level shit nobody could ever have imaged only 100 years ago. What a time to be alive.",
+    "background": "northernlights"
   }
 ]
