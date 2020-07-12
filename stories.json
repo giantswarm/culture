@@ -33,5 +33,60 @@
     "permalink": "good-times",
     "text": "We have a holistic view of people. Work life, a family life,  includeanything life are not silos. People have one life. Organizations need to consider that. It is less about partying and onsites (even if they mean a lot to me <3), it is more about having a purpose in your daily work (no bullshit jobs) and the `go` to self-organize. It is about no boundaries to thinking and getting the information you need to make decisions (transparency) and decide as an adult person what is best for you. It is about the flexibility to integrate all elements of life into your day.",
     "background": "northernlights"
+  },
+  {
+    "permalink": "long-run",
+    "text": "We sold a few companies. We are having fun. How do we make it stay that way, how do we make this work?",
+    "background": "gradient"
+  },
+  {
+    "permalink": "public-questions",
+    "text": "I find, in general, the openness of the Slack channel and not directing questions to one individual who you might feel `safe` asking but going right into forum mode. But not only that, the fact that there is a great openness to answering these questions quickly - because of the forum, not the individual.",
+    "background": "bokehballs.002"
+  },
+  {
+    "permalink": "bad-times",
+    "text": "The week before Christmas 2015 the company ran out of money. This was a difficult time, but many who stayed with us then are still with us today. Also, we did ultimately make payroll that month.",
+    "background": "gradient"
+  },
+  {
+  "permalink": "authority-figures",
+  "text": "Timo and Puja publicly encouraging others to question their statements and call bullshit on them where applicable.",
+  "background": "bokehballs.001"
+  },
+  {
+  "permalink": "get-job-done",
+  "text": "It's all about getting the job done. Not when and where - just get it done. Our culture allows for that because we trust each other.",
+  "background": "northernlights"
+  },
+  {
+  "permalink": "acceptable-customers",
+  "text": "We said no to Raytheon (a weapons manufacturer) when they came by our booth and were ready to come back later to sign a $1M contract.",
+  "background": "bokehballs.002"
+  },
+  {
+  "permalink": "common-sense",
+  "text": "We do stress this term a lot. But it deserves to be stressed. We avoid rules and processes for the sake of itself. Someone not following the common sense? Why `punish` everyone and create one? It simply does not make sense (Counting Holidays, Money spending, restricting information, Self-Organization).",
+  "background": "northernlights"
+  },
+{
+  "permalink": "social-swarm",
+  "text": "chat- channels and random on Slack, encourage people to share what they care about and be their complete selves at work.",
+  "background": "bokehballs.001"
+  },
+  {
+  "permalink": "fluid-roles",
+  "text": "Allowing people to change their role definition and their role name as necessary for the employee and the company to thrive.",
+  "background": "gradient"
+  },
+  {
+  "permalink": "awesome-box",
+  "text": "Let’s try an #awesome-box Slack channel to see if people praise each other. Might not work but we can give it a try. We did. It worked!",
+  "background": "bokehballs.002"
+  },
+  {
+  "permalink": "cross-team-work",
+  "text": "Salvo volunteering to join Team Firecracker due to Vaclav's holidays to help make progress on a story that was very important to the customer.",
+  "background": "northernlights"
   }
 ]
