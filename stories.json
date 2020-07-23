@@ -35,11 +35,6 @@
     "background": "northernlights"
   },
   {
-    "permalink": "long-run",
-    "text": "We sold a few companies. We are having fun. How do we make it stay that way, how do we make this work?",
-    "background": "gradient"
-  },
-  {
     "permalink": "public-questions",
     "text": "I find, in general, the openness of the Slack channel and not directing questions to one individual who you might feel `safe` asking but going right into forum mode. But not only that, the fact that there is a great openness to answering these questions quickly - because of the forum, not the individual.",
     "background": "bokehballs.002"
@@ -65,7 +60,7 @@
   "background": "bokehballs.002"
   },
   {
-  "permalink": "common-sense",
+  "permalink": "common-sense2",
   "text": "We do stress this term a lot. But it deserves to be stressed. We avoid rules and processes for the sake of itself. Someone not following the common sense? Why `punish` everyone and create one? It simply does not make sense (Counting Holidays, Money spending, restricting information, Self-Organization).",
   "background": "northernlights"
   },
