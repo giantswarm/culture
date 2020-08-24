@@ -8,9 +8,21 @@ const nextRandomButton = document.getElementById("next-random");
 const backgroundIframe = document.getElementById("background");
 const storiesURL = '/stories.json';
 const body = document.body;
+const nextSentence = document.getElementById("next-sentence");
+const previousSentence = document.getElementById("previous-sentence");
 
 const RIGHT_ARROW = 39;
 const LEFT_ARROW = 37;
+
+nextSentence.addEventListener("click", (e) => {
+  e.preventDefault();
+  rightArrowPressed();
+});
+
+previousSentence.addEventListener("click", (e) => {
+  e.preventDefault();
+  leftArrowPressed();
+});
 
 document.addEventListener("keydown", (event) => {
   switch(event.which) {
