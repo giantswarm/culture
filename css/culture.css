@@ -46,7 +46,10 @@ body {
 #counter {
   color: #f4f4f4;
   font-family: 'Roboto', sans-serif;
-  margin-top: 20px;
+
+  width: 100px;
+  text-align: center;
+
 }
 
 #story-text {
@@ -128,4 +131,13 @@ body {
   opacity: 1;
   transition: opacity 0.5s;
   transition-delay: 1s;
+}
+
+#story-controls {
+  display: flex;
+  align-items: center;
+}
+
+#story-controls .button {
+  margin-top: 0px;
 }
